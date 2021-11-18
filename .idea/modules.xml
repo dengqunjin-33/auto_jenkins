@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/center.iml" filepath="$PROJECT_DIR$/.idea/center.iml" />
       <module fileurl="file://$PROJECT_DIR$/center-consumer/center-consumer.iml" filepath="$PROJECT_DIR$/center-consumer/center-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/center-gateway/center-gateway.iml" filepath="$PROJECT_DIR$/center-gateway/center-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/center-producer/center-producer.iml" filepath="$PROJECT_DIR$/center-producer/center-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/center-registry/center-registry.iml" filepath="$PROJECT_DIR$/center-registry/center-registry.iml" />
     </modules>

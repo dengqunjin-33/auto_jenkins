@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/center-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/center-producer/pom.xml" />
         <option value="$PROJECT_DIR$/center-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/center-gateway/pom.xml" />
       </list>
     </option>
   </component>
