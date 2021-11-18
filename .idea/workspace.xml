@@ -363,17 +363,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CenterProducerApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CenterConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="center-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.datacenter.consumer.CenterConsumerApplication" />
