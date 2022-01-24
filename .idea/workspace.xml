@@ -197,13 +197,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CenterProducerApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,7 +269,8 @@
       <workItem from="1637209894922" duration="985000" />
       <workItem from="1637231502605" duration="325000" />
       <workItem from="1641960717056" duration="16000" />
-      <workItem from="1643019726149" duration="288000" />
+      <workItem from="1643019726149" duration="2861000" />
+      <workItem from="1643033579253" duration="6111000" />
     </task>
     <task id="LOCAL-00108" summary="测试pipeline">
       <created>1637049915506</created>
