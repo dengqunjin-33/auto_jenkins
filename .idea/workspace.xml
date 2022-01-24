@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/center-consumer/src/main/java/com/xa/datacenter/consumer/config/FeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-consumer/src/main/resources/application-jenkins.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-consumer/src/main/resources/application-kubenetes.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-consumer/src/main/resources/application-lo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-consumer/templates/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-consumer/templates/kubenetes/service.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/center-registry/src/main/resources/application-kubenetes.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/center-registry/src/main/resources/application-lo.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/center-registry/templates/docker/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/center-registry/templates/kubenetes/StatefulSet.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/center-registry/templates/kubenetes/service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/center-consumer" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/publish.sh" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/publish.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/src/main/java/com/xa/datacenter/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/src/main/java/com/xa/datacenter/consumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/src/main/java/com/xa/datacenter/consumer/feign/ProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/src/main/java/com/xa/datacenter/consumer/feign/ProducerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/center-consumer/pom.xml.releaseBackup" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/pom.xml.releaseBackup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/center-consumer/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/release.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/center-producer" beforeDir="false" afterPath="$PROJECT_DIR$/center-producer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-producer/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/center-producer/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/center-producer/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/center-producer/release.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/center-registry" beforeDir="false" afterPath="$PROJECT_DIR$/center-registry" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
@@ -148,6 +141,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="p1ffvqf8" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -198,6 +197,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CenterProducerApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CenterConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="center-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.datacenter.consumer.CenterConsumerApplication" />
@@ -257,6 +267,7 @@
       <workItem from="1637209894922" duration="985000" />
       <workItem from="1637231502605" duration="325000" />
       <workItem from="1641960717056" duration="16000" />
+      <workItem from="1643019726149" duration="288000" />
     </task>
     <task id="LOCAL-00108" summary="测试pipeline">
       <created>1637049915506</created>

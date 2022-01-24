@@ -64,3 +64,6 @@ jenkinsfile配置：(文件放在center-producer下，直接看文件吧！jenki
 ![img_14.png](img_14.png)
 ![img_15.png](img_15.png)
 ![img_16.png](img_16.png)
+
+## 2022-1-24更新
+```
