@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="README.md的流程图的补充">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,14 +149,7 @@
       <workItem from="1641960717056" duration="16000" />
       <workItem from="1643019726149" duration="2861000" />
       <workItem from="1643033579253" duration="6369000" />
-      <workItem from="1643082085662" duration="1371000" />
-    </task>
-    <task id="LOCAL-00110" summary="测试pipeline">
-      <created>1637050274292</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1637050274292</updated>
+      <workItem from="1643082085662" duration="1415000" />
     </task>
     <task id="LOCAL-00111" summary="测试pipeline">
       <created>1637050392626</created>
@@ -496,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643083567577</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="test">
+      <created>1643083715315</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1643083715315</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,10 +522,10 @@
     <MESSAGE value="md文件的编写" />
     <MESSAGE value="pipeline编写" />
     <MESSAGE value="测试pipeline" />
-    <MESSAGE value="test" />
     <MESSAGE value="README.md的编写和补充" />
     <MESSAGE value="README.md的流程图的补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md的流程图的补充" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
