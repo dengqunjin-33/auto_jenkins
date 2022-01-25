@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="README.md的编写和补充">
-      <change afterPath="$PROJECT_DIR$/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web请求流程.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/项目结构流程图.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="README.md的流程图的补充">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/center-registry/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -156,14 +151,7 @@
       <workItem from="1641960717056" duration="16000" />
       <workItem from="1643019726149" duration="2861000" />
       <workItem from="1643033579253" duration="6369000" />
-      <workItem from="1643082085662" duration="1204000" />
-    </task>
-    <task id="LOCAL-00109" summary="测试pipeline">
-      <created>1637050156317</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1637050156317</updated>
+      <workItem from="1643082085662" duration="1371000" />
     </task>
     <task id="LOCAL-00110" summary="测试pipeline">
       <created>1637050274292</created>
@@ -501,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643039945038</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="README.md的流程图的补充">
+      <created>1643083567577</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1643083567577</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +526,8 @@
     <MESSAGE value="测试pipeline" />
     <MESSAGE value="test" />
     <MESSAGE value="README.md的编写和补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md的编写和补充" />
+    <MESSAGE value="README.md的流程图的补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md的流程图的补充" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

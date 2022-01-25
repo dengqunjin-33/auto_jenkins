@@ -83,7 +83,7 @@ center
 │       
 ├─center-gateway       网关（提供统一入口）
 |
-├─template             模板存放
+├─template             模板存放,存放jenkinsfile模板,k8s部署脚本以及yml模板
 
 ```
 
