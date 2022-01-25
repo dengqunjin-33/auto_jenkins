@@ -4,126 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/center-registry/src/main/resources/application-kubenetes.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-registry/src/main/resources/application-lo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-registry/templates/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-registry/templates/kubenetes/StatefulSet.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center-registry/templates/kubenetes/service.yml" afterDir="false" />
+    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="README.md的编写和补充">
+      <change afterPath="$PROJECT_DIR$/img_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web请求流程.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目结构流程图.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/pom.xml.releaseBackup" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/pom.xml.releaseBackup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-producer" beforeDir="false" afterPath="$PROJECT_DIR$/center-producer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-producer/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/center-producer/release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry" beforeDir="false" afterPath="$PROJECT_DIR$/center-registry" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_jolokia_jolokia_core_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/center-registry/templates/jenkins/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/center-registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/center-registry/center-registry.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/publish.sh" beforeDir="false" afterPath="$PROJECT_DIR$/center-registry/templates/jenkins/publish.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/src/main/docker/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/src/main/java/com/xa/center/register/RegisterStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/center-registry/src/main/java/com/xa/center/register/RegisterStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/center-registry/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-registry/target/classes/com/xa/center/register/RegisterStart.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,23 +76,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xaigameproject\center" />
       <recent name="D:\xaigameproject\center\center-consumer" />
       <recent name="D:\xaigameproject\center\center-producer" />
       <recent name="D:\xaigameproject\center\center-registry\src\main\resources" />
       <recent name="D:\xaigameproject\center\center-registry" />
-      <recent name="D:\xaigameproject\center\center-producer\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CenterProducerApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,14 +155,8 @@
       <workItem from="1637231502605" duration="325000" />
       <workItem from="1641960717056" duration="16000" />
       <workItem from="1643019726149" duration="2861000" />
-      <workItem from="1643033579253" duration="6111000" />
-    </task>
-    <task id="LOCAL-00108" summary="测试pipeline">
-      <created>1637049915506</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1637049915506</updated>
+      <workItem from="1643033579253" duration="6369000" />
+      <workItem from="1643082085662" duration="1204000" />
     </task>
     <task id="LOCAL-00109" summary="测试pipeline">
       <created>1637050156317</created>
@@ -615,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637202047763</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="README.md的编写和补充">
+      <created>1643039945038</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1643039945038</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +530,8 @@
     <MESSAGE value="pipeline编写" />
     <MESSAGE value="测试pipeline" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="README.md的编写和补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md的编写和补充" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
