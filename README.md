@@ -23,14 +23,15 @@ center
 
 jenkins自动化job的编写有俩种。一种是shell配置，一种是pipeline。
 我先说下我shell方式的jenkins配置吧,第一个是全自动化的,事先把所需要的参数都直接在shell里面(直接上图):（ps：如果实在不想点build now，可以搞一个web hook）
+
 源码配置：
-![img.png](img.png)
+![img.png](https://github.com/dengqunjin-33/auto_jenkins/img.png)
 
 build配置：
-![img_1.png](img_1.png)
+![img_1.png](https://github.com/dengqunjin-33/auto_jenkins/img_1.png)
 
 shell编写：
-![img_2.png](img_2.png)
+![img_2.png](https://github.com/dengqunjin-33/auto_jenkins/img_2.png)
 
 
 第二个是半自动化的参数化构建(就是先一台机器升级，人为确认无误之后再升级另外的机器):

@@ -155,14 +155,7 @@
       <workItem from="1643019726149" duration="2861000" />
       <workItem from="1643033579253" duration="6369000" />
       <workItem from="1643082085662" duration="1415000" />
-      <workItem from="1643084259106" duration="317000" />
-    </task>
-    <task id="LOCAL-00112" summary="测试pipeline">
-      <created>1637050510722</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1637050510722</updated>
+      <workItem from="1643084259106" duration="387000" />
     </task>
     <task id="LOCAL-00113" summary="测试pipeline">
       <created>1637051948460</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643084282519</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="test">
+      <created>1643084589333</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1643084589333</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,9 +530,9 @@
     <MESSAGE value="测试pipeline" />
     <MESSAGE value="README.md的编写和补充" />
     <MESSAGE value="README.md的流程图的补充" />
-    <MESSAGE value="test" />
     <MESSAGE value="添加就绪指针和存活指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加就绪指针和存活指针" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
