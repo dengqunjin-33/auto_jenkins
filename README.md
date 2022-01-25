@@ -23,15 +23,14 @@ center
 
 jenkins自动化job的编写有俩种。一种是shell配置，一种是pipeline。
 我先说下我shell方式的jenkins配置吧,第一个是全自动化的,事先把所需要的参数都直接在shell里面(直接上图):（ps：如果实在不想点build now，可以搞一个web hook）
-
 源码配置：
 ![img.png](https://github.com/dengqunjin-33/auto_jenkins/img.png)
 
 build配置：
-![img_1.png](https://github.com/dengqunjin-33/auto_jenkins/img_1.png)
+![img_1.png](img_1.png)
 
 shell编写：
-![img_2.png](https://github.com/dengqunjin-33/auto_jenkins/img_2.png)
+![img_2.png](img_2.png)
 
 
 第二个是半自动化的参数化构建(就是先一台机器升级，人为确认无误之后再升级另外的机器):
@@ -88,20 +87,20 @@ center
 
 ```
 
-###环境：
+### 环境：
 + 腾讯云轻量级服务器4台（双十一含泪花了1200大洋）:2台2核4G+1台4核8G+朋友dark1台2核4G
 + k8s、gitlab、jenkins、nacos、maven、spring-cloud、harbor、spring-boot
 
 背景介绍:这一版是我和舍友两个人一起搞出来的,由于在前段时间粗略看了《kubernetes权威指南第五版》，对kubernetes有了一定的了解。所以第二版主要目的不仅仅是搞出ci/cd,主要还是学习k8s学习、深入和实践;思考实践k8s在jenkins-pipeline的应用;对以前ci/cd的一个“抽象”。
 
 
-###项目流程结构图:
+### 项目流程结构图:
 ![img_17.png](img_17.png)
 
-###web请求流程:
+### web请求流程:
 ![img_18.png](img_18.png)
 
-###遇到的困难:
+### 遇到的困难:
 * k8s的搭建
 * k8s问题的排查
 * flannel中k8s pod及容器无法跨主机互通问题
@@ -113,7 +112,7 @@ center
 * nacos问题
 * loki日志系统的配置
 
-###一些思考: 
+### 一些思考: 
 * eureka和nacos的选择:我选择nacos,因为nacos不仅是注册中心,还能作为配置中心使用。而且nacos既可以AP，也可以是CP。相比eureka的AP理论nacos有更多选择的可能性.而且nacos还能通过namespace来切分不同的环境。
 * 就绪指针和存活指针:在微服务当中依赖spring boot actuator暴露health api作为pod指针的选择
 * k8s-service的思考:之前一直搞不明白在我看别人开源项目k8s部署的时候为什么一个service对应一个微服务。直到后面我把好几个微服务混在一个service里面才明白，当多个微服务在同一个service的时候，service分辨不出哪个端口由哪些pod管理(比如一个service有nacos和consumer两个微服务pod，当我们访问nacos的时候，可能访问到consumer所在的pod里面，导致报错)。
