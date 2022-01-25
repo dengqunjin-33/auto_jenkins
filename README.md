@@ -95,10 +95,10 @@ center
 
 
 ###项目流程结构图:
-![img_16.png](img_17.png)
+![img_17.png](img_17.png)
 
 ###web请求流程:
-![img_16.png](img_18.png)
+![img_18.png](img_18.png)
 
 ###遇到的困难:
 * k8s的搭建
