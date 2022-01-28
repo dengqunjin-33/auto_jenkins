@@ -23,52 +23,52 @@ center
 jenkins自动化job的编写有俩种。一种是shell配置，一种是pipeline。
 我先说下我shell方式的jenkins配置吧,第一个是全自动化的,事先把所需要的参数都直接在shell里面(直接上图):（ps：如果实在不想点build now，可以搞一个web hook）
 源码配置：
-![img.png](img.png)
+![img.png](static/img.png)
 
 build配置：
-![img_1.png](img_1.png)
+![img_1.png](static/img_1.png)
 
 shell编写：
-![img_2.png](img_2.png)
+![img_2.png](static/img_2.png)
 
 
 第二个是半自动化的参数化构建(就是先一台机器升级，人为确认无误之后再升级另外的机器):
 其中，commit是github提交hash值。也可以基于标签的形式进行发布
-![img_3.png](img_3.png)
+![img_3.png](static/img_3.png)
 
 参数配置：
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img_4.png](static/img_4.png)
+![img_5.png](static/img_5.png)
 
 源码配置：
-![img_6.png](img_6.png)
+![img_6.png](static/img_6.png)
 
 build配置：
-![img_7.png](img_7.png)
+![img_7.png](static/img_7.png)
 
 shell脚本：
-![img_8.png](img_8.png)
+![img_8.png](static/img_8.png)
 
 pipeline自动化部署（也是直接上图吧）：
 这里可以点发布和回滚俩种操作：
-![img_9.png](img_9.png)
+![img_9.png](static/img_9.png)
 
 参数配置：(这里面注意有默认值，设置了默认值之后，我可以在正式服务器当中通过web hook进行自动化部署)
-![img_10.png](img_10.png)
+![img_10.png](static/img_10.png)
 
 触发器webhook设置：
-![img_11.png](img_11.png)
+![img_11.png](static/img_11.png)
 
 流水线配置：我是通过scm，在项目当中写jenkinsfile部署的。
-![img_12.png](img_12.png)
+![img_12.png](static/img_12.png)
 
 我把部署shell脚本放在一个publish.sh文件里面(在center-producer下)：
-![img_13.png](img_13.png)
+![img_13.png](static/img_13.png)
 
 jenkinsfile配置：(文件放在center-producer下，直接看文件吧！jenkinsfile3是我的初始版本，只有发布，没有回滚)
-![img_14.png](img_14.png)
-![img_15.png](img_15.png)
-![img_16.png](img_16.png)
+![img_14.png](static/img_14.png)
+![img_15.png](static/img_15.png)
+![img_16.png](static/img_16.png)
 
 
 ## 2022-1-24第二版本：基于harbor + jenkins + gitlab + k8s的ci\cd
@@ -94,10 +94,10 @@ center
 
 
 ### 项目流程结构图:
-![img_17.png](img_17.png)
+![img_17.png](static/img_17.png)
 
 ### web请求流程:
-![img_18.png](img_18.png)
+![img_18.png](static/img_18.png)
 
 ### 遇到的困难:
 * k8s的搭建
