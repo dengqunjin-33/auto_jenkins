@@ -121,3 +121,10 @@ center
 * 使用maven插件打版本tag
 * jenkins模板和项目分离:我一开始以为git parameter插件可以通过《已选仓库》参数来获取gitlab的项目tag,后来发现不行，查找资料发现这个参数只是一个正则匹配参数。我是依赖Active Choices插件然后编写groovy脚本通过gitlab api获取到项目的tag。这样的话pipeline整个项目全部微服务就都可以使用同一个jenkinsFile模板。然后我通过hidden parameter插件把除了tag的其它的参数全部隐藏掉了。这样的话当有新微服务上来的时候,只需要复制一个其它项目,修改微服务名和gitlab项目微服务id就能完成复制
 * 引入gateway是因为在我们发布新版本的时候，不需要频繁的对nginx进行操作，作为外部的入口，跟rpc内部调用差不多。
+
+### 2022-1-28更新:
+* 参考文章: https://cloud.tencent.com/developer/article/1751884
+* 添加nacos下线脚本service_offline.sh
+* k8s-pod设置prestop钩子(Deployment.spec.template.spec.containers.lifecycle.preStop)
+* 添加脚本执行参数(Deployment.spec.template.spec.containers.env)
+* 延长terminationGracePeriodSeconds优雅
