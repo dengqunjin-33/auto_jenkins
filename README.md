@@ -7,8 +7,7 @@ center
 │ 
 ├─center-registry      eureka注册中心
 │       
-├─center-producer      生产者（接口测试）
-│       
+├─center-producer      生产者（接口测试）    
 
 
 ```
