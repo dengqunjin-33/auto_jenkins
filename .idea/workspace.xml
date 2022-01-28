@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/pom.xml.releaseBackup" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/pom.xml.releaseBackup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-consumer/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/center-consumer/release.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-producer" beforeDir="false" afterPath="$PROJECT_DIR$/center-producer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center-producer/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/center-producer/release.properties" afterDir="false" />
-    </list>
+    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="README.md文件续写！" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,13 +142,7 @@
       <workItem from="1643084259106" duration="1565000" />
       <workItem from="1643358467036" duration="344000" />
       <workItem from="1643358844753" duration="337000" />
-    </task>
-    <task id="LOCAL-00116" summary="测试pipeline">
-      <created>1637052848770</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1637052848770</updated>
+      <workItem from="1643359193139" duration="145000" />
     </task>
     <task id="LOCAL-00117" summary="测试pipeline">
       <created>1637053101701</created>
@@ -494,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643084990583</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="README.md文件续写！">
+      <created>1643359250622</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1643359250622</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +519,8 @@
     <MESSAGE value="README.md的流程图的补充" />
     <MESSAGE value="添加就绪指针和存活指针" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="README.md文件续写！" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md文件续写！" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
