@@ -126,4 +126,4 @@ center
 * 添加nacos下线脚本service_offline.sh
 * k8s-pod设置prestop钩子(Deployment.spec.template.spec.containers.lifecycle.preStop)
 * 添加脚本执行参数(Deployment.spec.template.spec.containers.env)
-* 延长terminationGracePeriodSeconds优雅
+* 延长terminationGracePeriodSeconds优雅关闭时间

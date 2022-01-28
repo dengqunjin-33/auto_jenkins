@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="README.md文件续写！" />
+    <list default="true" id="535af6d4-5f22-4f94-af20-2c35ca549504" name="Default Changelist" comment="README.md文件续写！">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,42 +79,18 @@
       <recent name="D:\xaigameproject\center\center-registry" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CenterProducerApplication">
-    <configuration name="CenterConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="center-consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.datacenter.consumer.CenterConsumerApplication" />
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CenterGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="center-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.datacenter.centergateway.CenterGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CenterProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
-      <module name="center-producer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.datacenter.producer.CenterProducerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="center-registry" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xa.center.register.RegisterStart" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Spring Boot.CenterConsumerApplication" />
-      <item itemvalue="Spring Boot.CenterProducerApplication" />
-      <item itemvalue="Spring Boot.RegisterStart" />
-      <item itemvalue="Spring Boot.CenterGatewayApplication" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,6 +122,7 @@
       <workItem from="1643358467036" duration="344000" />
       <workItem from="1643358844753" duration="337000" />
       <workItem from="1643359193139" duration="145000" />
+      <workItem from="1643360569423" duration="175000" />
     </task>
     <task id="LOCAL-00117" summary="测试pipeline">
       <created>1637053101701</created>
